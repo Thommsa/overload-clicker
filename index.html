@@ -5,8 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>untitled</title>
   <link rel="icon" href="assets/svg/click.svg" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<p>placeholder — replacing next</p>
+  <div id="stage">
+    <div id="slime"></div>
+    <div id="ticker"><div class="strip" id="headlines"></div></div>
+    <div id="hud">
+      <div id="plus">+ overload</div>
+      <div id="count">0 overload</div>
+      <div id="sps">0 / sec</div>
+    </div>
+    <div id="click-wrap">
+      <button id="main-btn" type="button" aria-label="Click me">Click me</button>
+      <div id="under">click me</div>
+    </div>
+    <div id="runner"><img src="assets/svg/runner.svg" alt="Yard Rats widget" /></div>
+    <div id="press">
+      <img src="assets/svg/press.svg" alt="Hydraulic press" />
+      <div class="hint" id="press-hint">PRESS — crush for a burst</div>
+    </div>
+    <div id="ach">
+      <h3>Trophies</h3>
+      <ul id="ach-list"></ul>
+    </div>
+    <aside id="shop">
+      <h2>Upgrades</h2>
+      <div id="up-list"></div>
+    </aside>
+    <div id="toasts"></div>
+    <div id="bar">
+      <button id="mute" type="button">sound on</button>
+      <button id="reset" type="button">reset</button>
+    </div>
+    <div id="ocean">
+      <div class="cap">
+        <h1>You made it to the water.</h1>
+        <p>The rest was noise.</p>
+        <button id="again" type="button">start over</button>
+      </div>
+    </div>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>
