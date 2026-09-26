@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="apple"><rect width="1024" height="1024" rx="229" ry="229"/></clipPath>
+  </defs>
+  <g clip-path="url(#apple)">
+    <rect width="1024" height="1024" fill="#161616"/>
+    <ellipse cx="512" cy="560" rx="340" ry="220" fill="#7adf2e"/>
+    <ellipse cx="380" cy="500" rx="80" ry="50" fill="#c6ff7a" opacity=".7"/>
+    <circle cx="430" cy="520" r="36" fill="#163"/>
+    <circle cx="600" cy="540" r="28" fill="#163"/>
+    <path d="M300 360c40 80 20 120-20 180" fill="#7adf2e"/>
+    <path d="M700 320c-10 90 30 140 50 200" fill="#7adf2e"/>
+  </g>
+</svg>

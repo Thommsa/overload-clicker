@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="apple"><rect width="1024" height="1024" rx="229" ry="229"/></clipPath>
+    <linearGradient id="rb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff3df0"/><stop offset=".5" stop-color="#3df0ff"/><stop offset="1" stop-color="#ffe14a"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#apple)">
+    <rect width="1024" height="1024" fill="#111"/>
+    <rect x="72" y="72" width="880" height="880" rx="196" fill="#1a1a1a"/>
+    <rect x="160" y="300" width="704" height="320" rx="160" fill="#f4f4f4"/>
+    <text x="512" y="515" text-anchor="middle" font-family="Arial Black, Helvetica, sans-serif" font-size="168" font-weight="800" fill="#111">CLICK</text>
+    <rect x="200" y="720" width="624" height="96" rx="48" fill="#c1121f"/>
+    <text x="512" y="784" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#fff">MORE TO CLICK</text>
+    <rect x="760" y="120" width="140" height="140" rx="36" fill="url(#rb)"/>
+  </g>
+</svg>

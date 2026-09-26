@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="apple"><rect width="1024" height="1024" rx="229" ry="229"/></clipPath>
+  </defs>
+  <g clip-path="url(#apple)">
+    <rect width="1024" height="1024" fill="#0b1c33"/>
+    <path d="M-20 640c120-180 200-180 320-40 120-160 240-160 360 20 120-140 240-120 380 40v360H-20z" fill="#1e6fd8"/>
+    <path d="M-20 720c140-120 240-120 360 10 140-140 260-120 360 20 120-100 230-80 340 30v260H-20z" fill="#3ec0ff"/>
+    <path d="M200 560c40-20 80-10 90 20-50 10-80 20-90-20z" fill="#fff" opacity=".8"/>
+  </g>
+</svg>
