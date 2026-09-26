@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="apple"><rect width="1024" height="1024" rx="229" ry="229"/></clipPath>
+  </defs>
+  <g clip-path="url(#apple)">
+    <rect width="1024" height="1024" fill="#1a1a1a"/>
+    <rect x="180" y="140" width="664" height="80" rx="8" fill="#3a3a3a"/>
+    <rect x="470" y="220" width="84" height="220" fill="#8a8a8a"/>
+    <rect x="420" y="420" width="184" height="70" rx="8" fill="#c0c0c0"/>
+    <circle cx="512" cy="620" r="70" fill="#e8a0b0"/>
+    <circle cx="512" cy="620" r="42" fill="#f3d0a8"/>
+    <rect x="240" y="700" width="544" height="40" fill="#555"/>
+    <rect x="200" y="740" width="624" height="90" fill="#2a2a2a"/>
+    <rect x="160" y="160" width="40" height="680" fill="#2f2f2f"/>
+    <rect x="824" y="160" width="40" height="680" fill="#2f2f2f"/>
+    <rect x="160" y="200" width="40" height="24" fill="#e6c200"/>
+    <rect x="824" y="280" width="40" height="24" fill="#e6c200"/>
+    <text x="512" y="920" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#bbb">PRESS</text>
+  </g>
+</svg>
